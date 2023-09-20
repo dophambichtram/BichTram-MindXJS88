@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+.settings_panel{
+  display: flex;
+}
+
+div.column_wrapper div.settings_panel {
+  display: block;
+  box-sizing: border-box;
+  min-width: 280px;
+  width: 280px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+div.column_wrapper div.settings_panel h3 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0;
+  font-weight: 600;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.background_color.light_blue {
+  background-color: rgb(1, 180, 228);
+}
+
+div.column_wrapper ul.panel {
+  box-sizing: border-box;
+  padding: 8px 0;
+}
+ul {
+  list-style-type: none;
+}
+
+div.column_wrapper ul.panel.no_scroll li {
+  white-space: normal;
+}
+div.column_wrapper ul.panel li {
+  width: 100%;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+li {
+  display:block;
+  padding: 5px;
+}
+
+section.content {
+  margin-top: -537px;
+  margin-left: 265px;
+}
+
+div.column_wrapper div.column_content {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.k-form{
+  color: none; 
+  border: none;
+}
+.k-form, .k-form-inline {
+  font-size: 1rem;
+  line-height: 2.5;
+}
+
+.k-textbox{
+height: 30px;
+width: 100%;
+}
+
+form.k-form p.reset {
+  margin-left: 10px!important;
+}
+form.k-form div.flex {
+  display: flex;
+  align-items: center;
+}
+.k-button.k-primary {
+  color: #fff; 
+  background-color: rgb(1, 180, 228);
+  font-weight: 700;
+}
+.k-button {
+  width: 100px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.375rem 1.2rem;
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  font-size: 1em;
+}
+
+a {
+  color: rgb(1, 180, 228);
+  font-weight: 400;
+}
