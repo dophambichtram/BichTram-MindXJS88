@@ -6,7 +6,7 @@ const Chart = (props) => {
   const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
   // tạo hàm totalMaximum để gán kết quả hàm Math.max trên mảng dataPointValues
   const totalMaximum = Math.max(...dataPointValues);
-  // trả về của hàm Chart
+
   return (
     <div className="chart">
       {props.dataPoints.map((dataPoint) => (

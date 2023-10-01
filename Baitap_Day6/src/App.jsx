@@ -8,9 +8,10 @@ const dummyExpenses = [
 
 const App = () => {
   const [expenses, setExpenses] = useState(dummyExpenses);
-
   console.log(expenses)
+  // tạo hàm addExpenseHandler nhận tham số expense
   const addExpenseHandler = (expense) => {
+    // gọi setExpense để cập nhật tráng thái expense
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
