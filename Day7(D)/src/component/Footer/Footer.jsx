@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className='right'>
           <div className='box-introduce'>
-            <h2 className='h2footer' >Giới Thiệu</h2>
+            <h2 className='footer_title' >Giới Thiệu</h2>
             <li><a className='pfooter' href='#'>Về chúng tôi</a></li>
             <br />
             <li><a className='pfooter' href='#'>Dịch vụ</a></li>
@@ -20,7 +20,7 @@ function Footer() {
             <li><a className='pfooter' href='#'>Bảng giá</a></li>
           </div>
           <div className='box-support'>
-            <h2 className='h2footer' >Hỗ Trợ</h2>
+            <h2 className='footer_title' >Hỗ Trợ</h2>
             <li><a className='pfooter' href='#'>Câu hỏi thường gặp</a></li>
             <br />
             <li><a className='pfooter' href='#'>Chính sách bảo mật</a></li>
@@ -30,7 +30,7 @@ function Footer() {
             <li><a className='pfooter' href='#'>Liên hệ</a></li>
           </div>
           <div className='box-contact'>
-            <h2 className='h2footer'>Liên hệ</h2>
+            <h2 className='footer_title'>Liên hệ</h2>
             <li>Địa chỉ:227 Đường Nguyễn Văn Cừ, Phường 4, Quận 5, Hồ Chí Minh</li>
             <br />
             <li>Email:admin@whitefoo.com</li>

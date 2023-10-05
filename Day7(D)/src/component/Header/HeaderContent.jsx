@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 const HeaderContent = () => {
   return (
-    <div className='aheader'>
+    <div className='header_text'>
       <a href='#'><li>Trang chủ</li></a>
       <a href='#'><li>Thông tin</li></a>
       <a href='#'><li>Hỏi đáp</li></a>
