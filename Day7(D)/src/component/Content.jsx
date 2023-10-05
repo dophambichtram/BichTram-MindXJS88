@@ -1,12 +1,13 @@
 import React from 'react'
-import Button from './Button/Button';
+import './Content.css'
 
-const Content = () => {
+function Content() {
   return (
-    <div>
-      <Button />
+    <div className='newContent'>
+      <h1>Thanh toán không thể đơn giản hơn</h1>
+      <p>Hệ thống ngân hàng Internet hiện đại được tạo ra cho bạn</p>
     </div>
-  );
-};
+  )
+}
 
-export default Content;
+export default Content

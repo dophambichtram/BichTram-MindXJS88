@@ -1,17 +1,18 @@
 import React from 'react'
-import './Header.css';
-import './HeaderContent'
-const Header = () => {
-  return (
-    <div>
-      <Block>
-        <HeaderImage>
-          <img src="https://whitefoobank.netlify.app/assets/img/whitefoologocap.png" width={150}></img>
-        </HeaderImage>
-        <HeaderTitle />
-      </Block>
-    </div>
-  );
-};
+import './Header.css'
+import HeaderContent from './HeaderContent'
 
-export default Header;
+function Header() {
+  return (
+
+    <div className='block'>
+      <div className='headerImage'>
+        <img src="https://whitefoobank.netlify.app/assets/img/whitefoologocap.png" width={150}></img>
+      </div>
+      <HeaderContent />
+    </div>
+
+  )
+}
+
+export default Header

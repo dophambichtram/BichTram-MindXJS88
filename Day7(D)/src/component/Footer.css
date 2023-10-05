@@ -1,0 +1,39 @@
+.block {
+  height: 300px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  height: 100%;
+  margin-top: -250px;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+  margin: 40px;
+  padding: 30px;
+}
+
+.right {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 10px; */
+  margin: 40px;
+}
+
+.under {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
