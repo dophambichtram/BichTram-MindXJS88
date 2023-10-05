@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  position: unset;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  z-index: 10;
+}
+
+.headerImage {
+  margin-left: 208px;
+  margin-top: 29px;
+}
+
+.aheader {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-top: 36px;
+  margin-left: 465px;
+  text-decoration: none;
+}

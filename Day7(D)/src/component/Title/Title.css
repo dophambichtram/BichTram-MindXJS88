@@ -1,0 +1,75 @@
+.block {
+  display: flex;
+  justify-content: center;
+  margin: 185px;
+  margin-top: 60px;
+}
+
+.blockTitle {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: #212529;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+  margin-bottom: 100px
+}
+
+.titlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  padding-top: 40px;
+  transition: padding 1s;
+  border-right: 1px solid rgb(216, 216, 216);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+}
+
+.titlebox:hover {
+  padding-top: 20px;
+  cursor: pointer;
+
+  .atitle {
+    display: flex;
+  }
+}
+
+.atitle {
+  display: none;
+  position: relative;
+  color: #ff6a00;
+}
+
+.atitle::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.atitle:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+
+.ptitle {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+  margin-top: -25px;
+}

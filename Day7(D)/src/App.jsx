@@ -1,10 +1,9 @@
 
 import './App.css';
 import Header from './component/Header/Header';
-import Content from './component/Content';
-import Button from './component/Button';
-import Title from './component/Title';
-import Footer from './component/Footer';
+import Content from './component/Content/Content';
+import Title from './component/Title/Title';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -12,9 +11,8 @@ function App() {
       <div className='background'>
         <Header />
         <Content />
-        <Button />
+        <Title />
       </div>
-      <Title />
       <Footer />
     </>
 
