@@ -1,0 +1,28 @@
+.block {
+  display: flex;
+  margin: 64px 0px 5px;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.secondbox {
+  width: 739px;
+  height: 445px;
+  background: rgba(242, 242, 242, 0.1);
+  border: 1px dashed rgb(242, 242, 242);
+  border-radius: 0px 64px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.content-image {
+  margin-right: 15px;
+  margin-bottom: -10px;
+}
